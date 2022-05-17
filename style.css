@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #efedd6;
+  background-image: linear-gradient(90deg, #3483fa, #3483fa);
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
@@ -15,10 +15,12 @@ body {
 
 h1 {
   margin: 10px;
+  color: #fff;
+  
 }
 
 .box {
-  background-color: steelblue;
+  background-image: linear-gradient(90deg, #ebebeb, #ebebeb);
   color: #fff;
   display: flex;
   align-items: center;
@@ -42,4 +44,5 @@ h1 {
 
 .box h2 {
   font-size: 45px;
+  color: #4b4b4b
 }
